@@ -43,3 +43,11 @@ nav li a {
 nav li a:hover {
 	color: #a45f93;
 }
+
+main {
+text-align: center;
+}
+
+footer {
+text-align: center;
+}
