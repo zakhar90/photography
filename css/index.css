@@ -1,7 +1,7 @@
-html, body {
-    margin: 0;
-    padding: 0;
-}
+body {
+    max-width: 1600px;
+    margin: 0 auto;
+   }
 body {
 	background:
      #FFF 
