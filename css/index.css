@@ -8,7 +8,10 @@ a {
 
 
 /*Header*/
-
+.logo img{
+    width: 100px;
+    height: auto;
+}
 
 header{
     padding: 34px 0;
