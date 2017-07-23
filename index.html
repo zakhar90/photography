@@ -1,68 +1,146 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Zakharii Pavliuk photography</title>
-        <link rel="icon" href="images/favicon.png" type="images/png">
-        <!--Main-->
-        <link rel="stylesheet" href="css/index.css" type="text/css"/>
-    </head>
-    <body>
-        <header>
-            <div id="logo">
-               <span><a href="index.html">Zakharii Pavliuk</a></span> 
+<head>
+    <meta charset="UTF-8">
+    <title>Zakhari Pavliuk</title>
+    <link rel="stylesheet" href="css/index.css" type="text/css" />
+    <link rel="stylesheet" href="css/slider.css" type="text/css" />
+</head>
+<body>
+    <!--Header-->
+    <header>
+        <div class="container">
+            <div class="inner">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="images/logo.png" alt="Logotype" width="100px"></img>
+                    </a>
+                </div>
+                <nav class="menu">
+                    <ul>
+                        <li class="menu-item">
+                            <a href="#">wedding</a>
+                        </li>
+                        <li class="menu-item separator">|</li>
+                        <li class="menu-item">
+                            <a href="#">engagement</a>
+                        </li>
+                        <li class="menu-item separator">|</li>
+                        <li class="menu-item">
+                            <a href="#">portrait</a>
+                        </li>
+                        <li class="menu-item separator">|</li>
+                        <li class="menu-item">
+                            <a href="#">blog</a>
+                        </li>
+                        <li class="menu-item separator">|</li>
+                        <li class="menu-item">
+                            <a href="contacts.html">contacts</a>
+                        </li>
+                        <li class="menu-item separator">|</li>
+                    </ul>
+                </nav>
             </div>
-            <nav>
+        </div>
+    </header>
+    <!--Header END-->
+    <!--Content-->
+    <main>
+        <!--SLIDER Beginer-->
+        <div class="all">
+            <input checked type="radio" name="respond" id="desktop">
+            <div id="slider">
+                <input checked type="radio" name="slider" id="switch1">
+                <input type="radio" name="slider" id="switch2">
+                <input type="radio" name="slider" id="switch3">
+                <input type="radio" name="slider" id="switch4">
+                <input type="radio" name="slider" id="switch5">
+                <div id="slides">
+                    <div id="overflow">
+                        <div class="image">
+                            <picture><img src="images/1.jpg" alt="Wedding"></picture>
+                            <picture><img src="images/2.jpg" alt="Wedding"></picture>
+                            <picture><img src="images/3.jpg" alt="Wedding"></picture>
+                            <picture><img src="images/4.jpg" alt="Wedding"></picture>
+                            <picture><img src="images/5.jpg" alt="Wedding"></picture>
+                        </div>
+                    </div>
+                </div>
+                <div id="controls">
+                    <label for="switch1"></label>
+                    <label for="switch2"></label>
+                    <label for="switch3"></label>
+                    <label for="switch4"></label>
+                    <label for="switch5"></label>
+                </div>
+                <div id="active">
+                    <label for="switch1"></label>
+                    <label for="switch2"></label>
+                    <label for="switch3"></label>
+                    <label for="switch4"></label>
+                    <label for="switch5"></label>
+                </div>
+            </div>
+        </div>
+        <!--SLIDER END-->
+        <!--WELCOME-->
+        <section class="welcome">
+            <div class="title">
                 <ul>
-                    <li><a href="#home">Wedding</a></li>
-                    <li><a href="#engagement">Engagement</a></li>
-                    <li><a href="#portrait">Portrait</a></li>
-                    <li><a href="#blog">Blog</a></li>
-                    <li><a href="contacts.html">Contacts</a></li>
+                    <li class="title-item">
+                        <span>Welcome</span>
+                    </li>
+                    <li class="title-item separator">|</li>
+                    <li class="title-item">
+                        <span lang="uk">Ласкаво просимо</span>
+                    </li>
                 </ul>
-            </nav>
-        </header>
-        <hr>
-        <main>
-            <section id="slideshow">
-                <h2>SLIDESHOW</h2>
-            </section>
-            <hr>
-            <section id="welcome">
-                <h3>Ласкаво просимо</h3>
-                <p>"Фотографія — це вираз враження. Якщо прекрасне не жило б у нас, як би ми могли пізнати його?" 
-                Ернст Хаас  "Це схоже на знаходження чогось цікавого в самому звичайному місці... Я знаходжу цей 
-                нюанс, це мале в речах, які ви бачите і знаходжу різні способи, щоб ви побачили" Елліот Ервітт  
-                "Фотографія – це вміння укладати побачене в рамку, а вміння укладати в рамку – здатність вибирати
-                одне і відмовлятися від іншого" Артуро Перес-Реверте</p>
-            </section>
-            <hr>
-            <section id=rewiews>
-                <h3>Відгуки</h3>
-                <h2>Вікторія та Іван</h2>
-                <p>Дякуємо за незабутні світлі спогади, підмічені сльози радості, яскраві шалені емоції.
-                Фото мега круті і по справжньому Щирі! Вдячні тобі за настрій, професіональний підхід, влучні поради.
-                Від наречених процвітання, наснаги і тільки вдосконалення!</p>
-            </section>
-        </main>
-        <hr>
-        <footer>
-            <div>
+            </div>
+            <div class="text-welcome">
+                <span class="text-photo">
+                    "Фотографія — це вираз враження. Якщо прекрасне не жило б у нас, як би ми могли пізнати його?" Ернст Хаас "Це схоже на знаходження чогось цікавого в самому звичайному місці... Я знаходжу цей нюанс, це мале в речах, які ви бачите і знаходжу різні способи, щоб ви побачили" Елліот Ервітт "Фотографія – це вміння укладати побачене в рамку, а вміння укладати в рамку – здатність вибирати одне і відмовлятися від іншого" Артуро Перес-Реверте.
+                </span>
+            </div>
+        </section>
+        <section class="feedback">
+            <div class="title">
                 <ul>
-            		<li>
-            		    <a href="http://www.facebook.com/zakharii.otherside" title="Facebook">
-            		     <img src="images/facebook.svg" alt="Facebook" width="25">
-            		    </a>
-            		</li>
-            		<li>
-            		    <a href="http://www.instagram.com/zakharii.p" title="Instagram">
-            		     <img src="images/instagram.svg" alt="Instagram" width="25">
-            		    </a>
-            		</li>
+                    <li class="title-item">
+                        <span>Feedback</span>
+                    </li>
+                    <li class="title-item separator">|</li>
+                    <li class="title-item">
+                        <span lang="uk">Відгук</span>
+                    </li>
                 </ul>
-        	</div>
-        	<span>&copy; 2017 Zakharii Pavliuk</span>
-        </footer>    
-    </body>
+            </div>
+            <div class="text-feedback">
+                <span>
+                    <div>Вікторія та Іван</div>
+                    Дякуємо за незабутні світлі спогади, підмічені сльози радості, яскраві шалені емоції. Фото мега круті і по справжньому Щирі! Вдячні тобі за настрій, професіональний підхід, влучні поради. Від наречених процвітання, наснаги і тільки вдосконалення!
+                </span>
+            </div>
+        </section>
+        <!--WELCOME END-->
+    </main>
+    <!--Content END-->
+    <!--Footer-->
+    <footer>
+        <div>
+            <ul class="widget-social">
+                <li>
+                    <a href="http://www.facebook.com/zakharii.otherside" title="Facebook">
+                        <img src="icons/facebook.svg" alt="Facebook" width="17">
+                    </a>
+                </li>
+                <li>
+                    <a href="http://www.instagram.com/zakharii.p" title="Instagram">
+                        <img src="icons/instagram.svg" alt="Instagram" width="17">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <span style="font-size:10px;">© 2017 Zakharii Pavliuk photography</span>
+    </footer>
+</body>
 </html>

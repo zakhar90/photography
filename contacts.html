@@ -1,64 +1,87 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Cotntacts</title>
-        <link rel="icon" href="images/favicon.png" type="images/png">
-        <!--Main-->
-        <link rel="stylesheet" href="css/index.css" type="text/css"/>
-    </head>
-    <body>
-        <header>
-            <div id="logo">
-               <span><a href="index.html">Zakharii Pavliuk</a></span> 
-            </div>
-                <nav>
+<head>
+    <meta charset="UTF-8">
+    <title>Zakhari Pavliuk</title>
+    <link rel="stylesheet" href="css/index.css" type="text/css"/>
+    <link rel="stylesheet" href="css/contacts.css" type="text/css"/>
+</head>
+<body>
+    <!--Header-->
+    <header>
+        <div class="container">
+            <div class="inner">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="images/logo.png" alt="Logotype" width="100px"></img>
+                    </a>
+                </div>
+                <nav class="menu">
                     <ul>
-                        <li><a href="#wedding">Wedding</a></li>
-                        <li><a href="#engagement">Engagement</a></li>
-                        <li><a href="#portrait">Portrait</a></li>
-                        <li><a href="#blog">Blog</a></li>
-                        <li><a href="contacts.html">Contacts</a></li>
+                        <li class="menu-item">
+                            <a href="#">wedding</a>
+                        </li>
+                        <li class="menu-item separator">|</li>
+                        <li class="menu-item">
+                            <a href="#">engagement</a>
+                        </li>
+                        <li class="menu-item separator">|</li>
+                        <li class="menu-item">
+                            <a href="#">portrait</a>
+                        </li>
+                        <li class="menu-item separator">|</li>
+                        <li class="menu-item">
+                            <a href="#">blog</a>
+                        </li>
+                        <li class="menu-item separator">|</li>
+                        <li class="menu-item">
+                            <a href="contacts.html">contacts</a>
+                        </li>
+                        <li class="menu-item separator">|</li>
                     </ul>
                 </nav>
-        </header>
-        <hr>
-        <main>
-            <section id="photo">
-                <h2>PHOTO</h2>
-            </section>
-            <section id="contact">
-                <h2>CONTACTS</h2>
-            </section>
-            <hr>
-            <section>
-                <h2>Форма</h2>
-             	<form method="POST" action="https://formspree.io/zakhar90@gmail.com">
-                    <input type="text" placeholder="Name"><br>
-            	    <input type="email" placeholder="E-mail"><br>
-            	    <textarea placeholder="Message"></textarea><br>
-                    <input type="submit" value="Відправити">
-            	</form>
-            </section>
-        </main>
-        <hr>
-        <footer>
-            <div>
-                <ul>
-            		<li>
-            		    <a href="http://www.facebook.com/zakharii.otherside" title="Facebook">
-            		     <img src="images/facebook.svg" alt="Facebook" width="25">
-            		    </a>
-            		</li>
-            		<li>
-            		    <a href="http://www.instagram.com/zakharii.p" title="Instagram">
-            		     <img src="images/instagram.svg" alt="Instagram" width="25">
-            		    </a>
-            		</li>
-                </ul>
-        	</div>
-            <span>&copy; 2017 Zakharii Pavliuk</span>
-        </footer>               
-    </body>
+            </div>
+        </div>
+    </header>
+    <!--Header END-->
+    <!--Content-->
+    <main>
+        <div class="form">
+            <form method="POST" action="https://formspree.io/zakhar90@gmail.com">
+                <div class="dws-input">
+                    <input type="text" placeholder="Name">
+                </div>
+                <div>
+                    <input type="email" placeholder="E-mail">
+                </div>
+                <div>
+                    <textarea placeholder="Message"></textarea>
+                    <div>
+                        <input class="dws-submit" type="submit" value="Відправити">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </main>
+    <!--Content END-->
+    <!--Footer-->
+    <footer>
+        <div>
+            <ul class="widget-social">
+                <li>
+                    <a href="http://www.facebook.com/zakharii.otherside" title="Facebook">
+                        <img src="icons/facebook.svg" alt="Facebook" width="17">
+                    </a>
+                </li>
+                <li>
+                    <a href="http://www.instagram.com/zakharii.p" title="Instagram">
+                        <img src="icons/instagram.svg" alt="Instagram" width="17">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <span style="font-size:10px;">© 2017 Zakharii Pavliuk photography</span>
+    </footer>
+</body>
+
 </html>
