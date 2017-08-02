@@ -15,11 +15,7 @@ function sendForm(e) {
         },
         dataType: "json"
     })
-     .done(function() {
-         $('form')[0].reset();
-         $('#form-result').html('<p>Thank you!</p>');
-     })
      .fail(function(e){
-         $('#form-result').html(`<p>Sorry, there is an error: ${e}</p>`);
+     $('#form-result').html(`<p>Sorry, there is an error: ${e}</p>`);
      });
 }
