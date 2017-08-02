@@ -1,8 +1,11 @@
-<!doctype html>
+<!doctype>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zakhari Pavliuk</title>
+    <link rel="icon" href="image/logo.png" type="images/x-icon">
     <link rel="stylesheet" href="css/index.css" type="text/css"/>
     <link rel="stylesheet" href="css/contacts.css" type="text/css"/>
 </head>
@@ -13,7 +16,7 @@
             <div class="inner">
                 <div class="logo">
                     <a href="index.html">
-                        <img src="images/logo.png" alt="Logotype">
+                        <img src="images/logo.png" width="100px"></img>
                     </a>
                 </div>
                 <nav class="menu">
@@ -45,22 +48,56 @@
     </header>
     <!--Header END-->
     <!--Content-->
-    <main>
-        <div class="form">
-            <form method="POST" action="https://formspree.io/zakhar90@gmail.com">
-                <div class="dws-input">
-                    <input type="text" placeholder="Name">
+    <main class="wrap">
+        <div class="pan">
+            <img src="images/pan.jpg" alt="sunset">
+        </div>
+        <div class="contacts">
+            <div class="title-contacts">
+                <ul>
+                    <li class="title-item">
+                        <span>Contacts</span>
+                    </li>
+                    <li class="title-item separator">|</li>
+                    <li class="title-item">
+                        <span lang="uk">Контакти</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="photo-contacts">
+                <div class="img-contacts">
+                    <img src="images/myphoto.jpg" alt="Photo Zakharii Pavliuk">
                 </div>
-                <div>
-                    <input type="email" placeholder="E-mail">
-                </div>
-                <div>
-                    <textarea placeholder="Message"></textarea>
+                <div class="text-contacts">
                     <div>
-                        <input class="dws-submit" type="submit" value="Відправити">
+                        <p>
+                            Якщо ви шукаєте фотографа, то ви прийшли в правильне місце. Мене звати Захарій Павлюк і я фотограф.
+                            Напишіть мені про те, як ви бачите свою ідеальну фотосесію. І ми разом зробимо її ще кращою.
+                            А якщо вам не хватає напечатаних слів, для того щоб описати все вами задуманне, звоніть!
+                        </p>
+                    </div>
+                    <div>
+                        +380 93 13 954 13
+                    </div>    
+                </div>
+            </div>
+        </div>
+        <div class="form">
+            <form>
+                <div class="input">
+                    <div class="dws-input">
+                        <input type="text" id="name" placeholder="Name">
+                        <input type="email" id="email" placeholder="E-mail">
+                    </div>
+                    <div class="massage">
+                        <textarea id="message" placeholder="Message"></textarea>
+                    </div>
+                    <div class="button">
+                    <input type="submit" value="Відправити">
                     </div>
                 </div>
             </form>
+            <div id="form-result"></div>
         </div>
     </main>
     <!--Content END-->
@@ -82,6 +119,11 @@
         </div>
         <span style="font-size:10px;">© 2017 Zakharii Pavliuk photography</span>
     </footer>
+    <script
+      src="http://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous">
+    </script>
+    <script src="js/index.js"></script>
 </body>
-
 </html>

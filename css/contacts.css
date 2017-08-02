@@ -1,20 +1,74 @@
+.wrap{
+	display: flex;
+	flex-direction: column;
+	justify-content:  center;
+	flex-wrap: wrap;
+}
+.wrap .contacts .photo-contacts{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.wrap .contacts .photo-contacts .img-contacts{
+	margin: 10px;
+	flex-basis: 300px;
+}
+.wrap .contacts .photo-contacts .text-contacts{
+	margin: 10px;
+	flex-basis: 300px;
+	text-align: justify;
+}
+.wrap .contacts .title-contacts{
+	display: flex;
+	justify-content: center;
+
+}
+.wrap .contacts ul li{
+	display: inline-block;
+}
+/*FORM*/
 .form{
-	width: 900px;
-	height: 300px;
-	margin: 250px auto 0 auto;
-	text-align: center;
+	display: flex;
+	justify-content: center;
+	margin: 50px 0 -10px 0;
 }
-input[type="text"], input[type="email"], textarea{
-	width: 300px;
+form {
+	width: 560px;
+	height: auto;
+	background-color: #F6F6F6;
+	display: flex;
+	flex-direction: column;
+}
+.input{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: 10px;
+}
+.dws-input{
+	display: flex;
+	flex-direction: column;
+}
+input[type="text"], input[type="email"]{
+	width: 250px;
 	height: 50px;
-	font-size: 18px;
-	margin-bottom: 25px;
+	margin: 10px;
 }
-.dws-submit{
-	padding: 14px 30px;
-	margin: 5px 0 20px 0;
-	font-size: 15px;
-	background-color: #239f5f;
-	border: 25px;
-	border-radius: 100px;
+textarea {
+	width: 250px;
+	height: 120px;
+	margin: 10px;
 }
+.button{
+	display: flex;
+	justify-content: flex-start;
+	margin: 10px 20px;
+	padding: 0 0 10px 0;
+}
+
+
+
+
+
+
+

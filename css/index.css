@@ -1,18 +1,15 @@
-body {
-    background: #fff;
-    margin: 0 auto;
+html{
+    background: #fff
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    text-align: center;
 }
-a {
+a{
     text-decoration: none;
+    color: #6C6D69;
 }
-
-
 /*Header*/
-.logo img{
-    width: 100px;
-    height: auto;
-}
-
 header{
     padding: 34px 0;
 }
@@ -43,10 +40,7 @@ header nav.menu .menu-item {
 header nav.menu .menu-item.separator:last-child {
     display: none;
 }
-
-
 /*Header END*/
-
 /*Welcome*/
 section.welcome{
     position: relative;
@@ -54,13 +48,13 @@ section.welcome{
     margin: 50px auto;
     padding: 25px 75px;
 }
-main section.welcome div.title ul{
-    padding-left: 50px;
+main section.welcome h1.title ul{
+    padding-left: 90px;
 }
-main section.welcome div.title ul li{
+main section.welcome h1.title ul li{
     display: inline-block;
 }
-main section.welcome div.title .title-item{
+main section.welcome h1.title .title-item{
     position: relative;
     padding: 0 7px;
     margin: 0 5px;
@@ -71,13 +65,13 @@ section.feedback{
     margin: 10px auto;
     padding: 25px 75px 25px 0;
 }
-main section.feedback div.title{
+main section.feedback h1.title{
     padding-left: 0;
 }
-main section.feedback div.title ul li{
+main section.feedback h1.title ul li{
     display: inline-block;
 }
-main section.feedback div.title .title-item{
+main section.feedback h1.title .title-item{
     position: relative;
     padding: 0 7px;
     margin: 0 5px;
@@ -93,8 +87,6 @@ h3{
 .title{
     text-align: center;
 }
-
-
 /*Welcome END*/
 /* Footer */
 footer {
@@ -109,5 +101,4 @@ footer {
 .widget-social {
     padding: 0 40px;
 }
-
 /* Footer END*/
