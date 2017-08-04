@@ -40,11 +40,13 @@ header nav.menu .menu-item {
 header nav.menu .menu-item.separator:last-child {
     display: none;
 }
+
 /*Header END*/
 /*Welcome*/
 section.welcome{
-    position: relative;
-    width: 900px;
+    display: block;
+    width: 75%;
+    max-width: 900px;
     margin: 50px auto;
     padding: 25px 75px;
 }
@@ -60,8 +62,9 @@ main section.welcome h1.title .title-item{
     margin: 0 5px;
 }
 section.feedback{
-    position: relative;
-    width: 900px;
+    display: block;
+    width: 75%;
+    max-width: 900px;
     margin: 10px auto;
     padding: 25px 75px 25px 0;
 }
@@ -87,10 +90,14 @@ h3{
 .title{
     text-align: center;
 }
+#text-photo{
+    display: flex;
+}
 /*Welcome END*/
 /* Footer */
 footer {
     background: #fff;
+    margin: 10px;
     padding: 40px 0;
     text-align: center;
 }
