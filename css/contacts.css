@@ -7,7 +7,11 @@
 .wrap .contacts .photo-contacts{
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
 	justify-content: center;
+}
+#zakhar img{
+	width: 100%;
 }
 .wrap .contacts .photo-contacts .img-contacts{
 	margin: 10px;
@@ -17,6 +21,13 @@
 	margin: 10px;
 	flex-basis: 300px;
 	text-align: justify;
+}
+.wrap .contacts .photo-contacts .text-contacts p{
+	margin: 0;
+	padding: 0;
+}
+#phone{
+	padding: 0 40px;
 }
 .wrap .contacts .title-contacts{
 	display: flex;
